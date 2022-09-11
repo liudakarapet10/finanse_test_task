@@ -1,0 +1,100 @@
+.titcker-box{
+    width: 80%;
+    height: auto;
+    margin: auto;
+    background-color: #F0FFF0;
+    border: 1px solid #E8EAED;
+    margin-top: 20px;
+    text-align: start;
+}
+
+.titcker_name{
+    padding-left: 12px;
+    margin-bottom: 0;
+    font-weight: 500;
+}
+
+hr{
+    color: #E8EAED;
+   
+}
+
+.titcker_price{
+    font-weight: bold;
+    font-size: 24px ;
+}
+
+.description-box{
+    width: 50%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    justify-content: baseline;
+}
+
+.description-box p:nth-child(1) {
+    margin-top: 12px ;
+}
+
+p {
+    display: block;
+}
+
+.color-green {
+    color: green;
+}
+
+.color-green::before {
+  content: '+';
+}
+
+.color-red {
+    color: red;
+}
+
+.color-red::before {
+    content: '-';
+}
+
+.input-box{
+    margin: 10px;
+}
+
+.input_amount{
+    width: 20%;
+    height: 20px;
+    margin: auto 5px;
+    background-color: #E8EAED;
+    border: 1px solid #E8EAED;
+}
+
+.input_amount:hover{
+    background-color: #a3e2eb;
+    border: 1px solid #a3e2eb;
+}
+
+button {
+    width: 20%;
+    height: 25px;
+    background-color: rgb(153, 153, 153);
+    border: 1px solid rgb(153, 153, 153);
+    color: white;
+    font-weight: bold;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: black;
+    border: 1px solid black;
+    color: white;
+}
+
+.par_titcker{
+    width: 30%;
+    height: 20px;
+    display: block;
+    margin-left: 10px;
+    border-radius: 5px;
+    background-color: aqua;
+    text-align: center;
+}

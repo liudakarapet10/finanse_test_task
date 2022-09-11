@@ -1,0 +1,50 @@
+.container {
+    width: 40%;
+    height: auto;
+    margin: 20px auto;
+}
+
+.box{
+    width: 100%;
+    height: auto;
+    display: flex;
+    border-top: 1px solid #E8EAED;
+    padding: 10px;
+    background-color: #F0FFF0;
+    justify-content: space-between;
+}
+
+.box div:first-child{
+    width: 10%;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+.box div:nth-child(2){
+    width: 10%;
+}
+
+.box div:nth-child(3){
+    width: 10%;
+    text-align: end;
+}
+
+.title:hover{
+  cursor: pointer;
+  background-color: darkcyan;
+}
+
+.color-green {
+    color: green;
+}
+
+.color-green::before {
+  content: '+';
+}
+
+.color-red {
+    color: red;
+}
+
+.color-red::before {
+    content: '-';
+}
